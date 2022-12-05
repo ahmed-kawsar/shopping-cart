@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cart-amount {
+  @apply absolute bg-yellow-300 w-5 h-5 flex justify-center items-center rounded-full left-4 bottom-4 text-black text-sm font-bold;
+}
+
+.remove-btn {
+  @apply border border-red-300 mt-3 w-32 ml-auto text-red-600 hover:text-white rounded font-semibold hover:bg-red-400;
+}
